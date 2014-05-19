@@ -15,8 +15,7 @@ module.exports = function (grunt) {
 
       // command line args
       var args = [
-        "sass",
-        "--compass",
+        "bundle exec sass",
         "--watch",
         ".:."
       ];
